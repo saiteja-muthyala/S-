@@ -1,8 +1,8 @@
+
 const index = (req,res) =>{
-
-  res.render('index', { title: 'Auto Mobiles' });
+    res.render('index',{title:'AUTOMOBILES'});
 };
 
-module.exports = {
-    index
-};
+
+
+module.exports={index};

@@ -4,6 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+require('./app_api/models/db')
+const apirouter = require('./app_api/routes/index');
+
+
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 
@@ -22,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.use('/api', apirouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

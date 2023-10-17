@@ -1,0 +1,118 @@
+extends layout
+block content
+    style.
+        .image-container {
+            text-align: center; /* Center-align the text */
+            padding: 20px; /* Add padding for spacing */
+        }
+        .image-container img {
+            width: 100%; /* Ensure all images have the same width */
+            max-height: 200px; /* Set a fixed height for the image containers */
+            display: block;
+            margin: 0 auto;
+        }
+        .image-container p {
+            margin-top: 5px; /* Add some spacing between image and text */
+        }
+    .row.banner
+        .col-12
+            h1 SPARE PARTS 
+    .row
+        .col-12.col-lg-9
+            .row
+                .col-12.col-md-6
+                    .card-primary
+                        a(href='/home/spare/purchase/new?unique_id=1899')
+                            img.img-fluid.rounded(src='https://media.istockphoto.com/id/503317759/photo/brake-pads.jpg?s=612x612&w=0&k=20&c=mMaGLbmU_sJC9K1-huzIVcOFB2672MPO7BolX-ZVZNc=')
+                            .card-block
+                                    h2.card-title Break pads
+                                    p 
+                                        |   name : Brake pads
+                                        br
+                                        |   unique_id : 1899
+                                        br
+                                        |   category : car brake pads
+                                        br
+                                        |   price   : 899.99
+                                        br
+                                        |   inStock : 20
+                                    
+                                
+                .col-12.col-md-6       
+                    .card-primary
+                        a(href='/home/spare/purchase/new?unique_id=1900')
+                            img.img-fluid.rounded(src='https://ridermagazine.com/wp-content/uploads/2019/05/Chains-Stacked.jpg')
+                            .card-block
+                                h2.card-title Chains
+                                p 
+                                        |   name : Brake pads
+                                        br
+                                        |   unique_id : 1900
+                                        br
+                                        |   category : car brake pads
+                                        br
+                                        |   price   : 899.99
+                                        br
+                                        |   inStock : 20
+                                
+                        
+                .col-12.col-md-6             
+                    .card-primary
+                        a(href='/home/spare/purchase/new?unique_id=1901')
+                            img.img-fluid.rounded(src='https://5.imimg.com/data5/SELLER/Default/2022/1/DC/SU/MD/54159181/e-bike-brake-lever.jpg')
+                            .card-block
+                                h2.card-title Break Levers
+                                p 
+                                            |   name : Brake pads
+                                            br
+                                            |   unique_id : 1901
+                                            br
+                                            |   category : car brake pads
+                                            br
+                                            |   price   : 899.99
+                                            br
+                                            |   inStock : 20
+                            
+                        
+                .col-12.col-md-6    
+                    .card-primary
+                        a(href = '/home/spare/purchase/new?unique_id=1902')
+                            img.img-fluid.rounded(src='https://5.imimg.com/data5/SELLER/Default/2022/9/AI/ZW/ZM/104064366/tata-green-premio-70d26r-car-battery.png')
+                            .card-block
+                                h2.card-title Batteries
+                                p 
+                                        |   name : Brake pads
+                                        br
+                                        |   unique_id : 1902
+                                        br
+                                        |   category : car brake pads
+                                        br
+                                        |   price   : 899.99
+                                        br
+                                        |   inStock : 20                       
+                .col-12.col-md-6
+                    .card-primary
+                        a(href='/home/spare/purchase/new?unique_id=1903')
+                            img.img-fluid.rounded(src='https://s3.ap-south-1.amazonaws.com/choosemybicycle.webp/images/accessories/juice-lubes-wax-chain-oil-130ml-new.webp', alt='Chain lubricants')
+                            .card-block
+                                h2.card-title Chain lubricants
+                                p 
+                                | name: Brake pads
+                                br
+                                | unique_id: 1903
+                                
+                                br
+                                | category: car brake pads
+                                br
+                                | price: 899.99
+                                br
+                                | inStock: 20
+
+
+
+
+                    .card-primary
+                        .card-block
+                            a.btn.btn-primary.float-end(href='/home/spare/review/new') Add review
+
+                    
